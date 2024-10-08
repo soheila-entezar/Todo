@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'vazir-thin';
+    src: url('../app/fonts/Vazir-Thin-FD-WOL.woff2');
+}
+@font-face {
+    font-family: 'vazir-bold';
+    src: url('../app/fonts/Vazir-Bold-FD-WOL.eot');
+}
+@font-face {
+    font-family: 'vazir-black';
+    src: url('../app/fonts/Vazir-Black-FD.eot');
+}
