@@ -1,8 +1,18 @@
+'use client'
 import { GoTrash } from "react-icons/go";
 import { RiCheckboxBlankCircleLine } from "react-icons/ri";
 import { TfiBackRight } from "react-icons/tfi";
+import useTodoStore from "@/app/store";
+import { create } from "domain";
+import { stat } from "fs";
 
 function ToDoList() {
+const todoes=useTodoStore((stat)=>stat.todos)
+const toggleTodo=useTodoStore((stat)=>stat.toggleTodo)
+
+
+
+
   return (
     <>
     {/* in progress */}
