@@ -23,7 +23,7 @@ function AddToDO() {
       <button type="submit" className="w-[30%] h-[35%] text-[10px] bg-[#4338ca] text-white rounded-md flex justify-center items-center ">
         افزودن
       </button>
-      <input onChange={(e)=>setTask(e.target.value)} type="text" name="{task}" id="" style={{direction:'rtl'}} className="w-[55%] h-[35%] placeholder:text-[12px] px-2 outline-none border border-[#e4e4e7] rounded-md " placeholder="امروز میخوام..."/>
+      <input onChange={(e)=>setTask(e.target.value)} type='text' value={task} name="{task}" id="" style={{direction:'rtl'}} className="w-[55%] h-[35%] placeholder:text-[12px] px-2 outline-none border border-[#e4e4e7] rounded-md " placeholder="امروز میخوام..."/>
     </form>
   );
 }

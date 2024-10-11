@@ -38,7 +38,9 @@ const useTodoStore = create<TodoStore>((set) => ({
         // اضافه کردن تسک به لیست حذف شده
         return {
           todos: state.todos.filter((todo) => todo.id !== id),
-          deletedTodos: [...state.deletedTodos, todoToDelete]
+          deletedTodos: [...state.deletedTodos, todoToDelete],
+
+          
         };
       }
       return state;
