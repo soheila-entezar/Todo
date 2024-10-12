@@ -72,7 +72,7 @@ function ToDoList() {
               <TfiBackRight />
             </button>
             <span className="w-[85%] text-[9px] text-[#626c7b] font-semibold flex justify-end">
-              ثانیه برای بازگرداندن فرصت دارید{" "}
+              ثانیه برای بازگرداندن فرصت دارید 
             </span>
           </div>
         </div>
